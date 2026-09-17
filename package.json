@@ -1,0 +1,21 @@
+{
+  "name": "honda-kaduwela-concept",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 4188",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4188",
+    "start": "vite preview --host 0.0.0.0 --port ${PORT:-4188}"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "5.3.0",
+    "@fontsource/archivo-black": "5.3.0",
+    "@fontsource/noto-sans-sinhala": "^5.3.0",
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "vite": "8.2.2"
+  }
+}
